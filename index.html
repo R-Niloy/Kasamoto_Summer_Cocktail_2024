@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasa Moto Summer Cocktails 2024</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: darkslategray;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .cocktail {
+      display: flex;
+      justify-content: space-between; /* Add space between elements */
+      background-color: #fff;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      width: 75%;
+    }
+    .cocktail:hover {
+      transform: scale(1.05);
+      background-color: floralwhite; /* Changed hover color */
+    }
+    .cocktail:nth-child(odd) h2:hover {
+      color: #FF69B4; /* Change color on hover for odd-indexed cocktails */
+    }
+    .cocktail:nth-child(even) h2:hover {
+      color: seagreen; /* Change color on hover for even-indexed cocktails */
+    }
+    .cocktail h2 {
+      font-size: 24px;
+      color: #333;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      transition: color 0.3s ease; /* Add transition for color change */
+    }
+    .cocktail h3 {
+      font-size: 20px;
+      color: #666;
+      margin-top: 15px;
+    }
+    .cocktail p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .cocktail .note {
+      font-style: italic;
+      color: #999;
+      margin-bottom: 10px;
+    }
+    .cocktail img {
+      max-width: 40%; /* Adjust image size */
+      border-radius: 10px;
+    }
+    /* Additional Styles */
+    .cocktail .ingredients {
+      margin-bottom: 10px;
+      background-color: #fff; /* Initial background color */
+      transition: background-color 0.3s ease; /* Transition for background color change */
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .cocktail .ingredients:hover {
+      background-color: #9fd0da; /* Changed hover color */
+    }
+    .cocktail .instructions {
+      margin-bottom: 10px;
+    }
+    .cocktail .garnish {
+      margin-bottom: 10px;
+    }
+    .cocktail .note {
+      margin-bottom: 10px;
+    }
+    .ingredient-amount {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-right: 5px;
+    }
+    /* Additional CSS for ingredient amounts */
+    .ingredient-amount-oz {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .ingredient-amount-label {
+      font-size: 14px;
+    }
+    .cocktail .notes-list {
+      margin-top: 15px;
+    }
+    .cocktail .notes-list li {
+      font-style: italic;
+      color: #999;
+      padding: 5px 0;
+      transition: color 0.3s ease; /* Transition for note color change */
+    }
+    .cocktail .notes-list li:hover {
+      color: #FF6347; /* Changed hover color for notes */
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Kasa Moto Summer Cocktails 2024</h1>
+</header>
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>FASHIONABLY LATE  $ 24</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">2oz</span></span> Suntory Toki</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.75oz</span></span> Yamamomo juice</p>
+      <p>2 dashes of Sakura bitters</p>
+    </div>
+    <div class="instructions">
+      <h3>Instructions</h3>
+      <p>Stirred</p>
+      <p>Frozen rocks glass with King Cube</p>
+      <p>Garnished with a yamamomo berry</p>
+    </div>
+    <div class="note">
+      <h3>Note</h3>
+      <ul class="notes-list">
+        <li>To be served with a soy ramekin for the yamamomo pit</li>
+        <li>Spirit Forward, Balanced</li>
+      </ul>
+    </div>
+  </div>
+  <img src="img/image_Stir.jpg" alt="Cocktail Image">
+</div>
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>MIDORI GARDEN   $ 23</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">1oz</span></span> Tanqueray Gin</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.5oz</span></span> McGuinness Melon</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.25oz</span></span> Tio Pepe Sherry</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.25oz</span></span> El Gobernador Pisco</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">1oz</span></span> Lemon Juice</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.25oz</span></span> Thai Bird Simple Syrup</p>
+    </div>
+    <div class="instructions">
+      <h3>Instructions</h3>
+      <p>Shaken</p>
+      <p>1920s Retro Fizz Coupe</p>
+      <p>Garnished with mandolin star fruit & flower petal</p>
+    </div>
+    <div class="note">
+      <h3>Note</h3>
+      <p>*Tart, Spicy, Sharp flavor, Melon dominant</p>
+    </div>
+  </div>
+  <img src="img/hung.jpg" alt="Cocktail Image">
+</div>
+
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>SAFFRON SUNSET   $ 24</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">1.50oz</span></span> Patrón Silver</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.50oz</span></span> Luxardo Limoncello</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.25oz</span></span> McGuiness Chocolate Liqueur</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">1.5oz</span></span> Yuzu</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">1.5oz</span></span> Rose Pomelo Juice</p>
+      <p><span class="ingredient-amount"><span class="ingredient-amount-oz">.75oz</span></span> Saffron Simple Syrup</p>
+    </div>
+    <div class="instructions">
+      <h3>Instructions</h3>
+      <p>Shaken with Pomelo</p>
+      <p>Frozen round rocks glass with saffron sphered king cube</p>
+      <p>Garnished with a pomelo wing</p>
+      <p>All liquid served in sidecar to be poured table side</p>
+    </div>
+    <div class="note">
+      <h3>Note</h3>
+      <p>*Fresh, Light Tart, Round, Spicy</p>
+    </div>
+  </div>
+  <img src="img/hung.jpg" alt="Cocktail Image">
+</div>
+</body>
+</html>
