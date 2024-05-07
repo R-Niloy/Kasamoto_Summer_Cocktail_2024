@@ -11,6 +11,7 @@
       padding: 0;
       background-color: darkslategray;
     }
+
     header {
       background-color: #333;
       color: #fff;
@@ -18,10 +19,12 @@
       padding: 20px 0;
       margin-bottom: 20px;
     }
+
     h1 {
       font-size: 36px;
       font-weight: bold;
     }
+
     .cocktail {
       display: flex;
       justify-content: space-between; /* Add space between elements */
@@ -33,16 +36,20 @@
       transition: transform 0.3s ease;
       width: 75%;
     }
+
     .cocktail:hover {
       transform: scale(1.05);
       background-color: floralwhite; /* Changed hover color */
     }
+
     .cocktail:nth-child(odd) h2:hover {
       color: darkblue; /* Change color on hover for odd-indexed cocktails */
     }
+
     .cocktail:nth-child(even) h2:hover {
       color: seagreen; /* Change color on hover for even-indexed cocktails */
     }
+
     .cocktail h2 {
       font-size: 24px;
       color: black;
@@ -51,22 +58,24 @@
       margin-bottom: 10px;
       transition: color 0.3s ease;
     }
+
     .cocktail h3 {
       font-size: 20px;
       color: black;
       margin-top: 15px;
     }
+
     .cocktail p {
       font-size: 16px;
       color: #666;
       margin-bottom: 10px;
     }
+
     .cocktail .note {
-      font-size: 24px;
-      font-style: oblique;
       color: darkred;
       margin-bottom: 10px;
     }
+
     .cocktail img {
       max-width: 100%; /* Set maximum width to 100% of its container */
       max-height: 100%; /* Set maximum height to 100% of its container */
@@ -82,21 +91,30 @@
       padding: 10px;
       border-radius: 5px;
     }
+
     .cocktail .ingredients:hover {
       background-color: ghostwhite; /* Changed hover color */
     }
+
     .cocktail .instructions {
       margin-bottom: 10px;
     }
+
+    .cocktail .instructions:hover {
+      background-color: #cefcf2; /* Changed hover color */
+    }
+
     .cocktail .garnish {
       margin-bottom: 10px;
     }
+
     .cocktail .note {
       margin-bottom: 10px;
 
 
     }
-        .cocktail .note:hover {
+
+    .cocktail .note:hover {
       background-color: #94c995; /* Changed hover color */
     }
 
@@ -108,23 +126,28 @@
       border-radius: 4px;
       margin-right: 5px;
     }
+
     /* Additional CSS for ingredient amounts */
     .ingredient-amount-oz {
       font-size: 14px;
       font-weight: bold;
     }
+
     .ingredient-amount-label {
       font-size: 14px;
     }
+
     .cocktail .notes-list {
       margin-top: 15px;
     }
+
     .cocktail .notes-list li {
       font-style: italic;
       color: darkblue;
       padding: 5px 0;
       transition: color 0.3s ease; /* Transition for note color change */
     }
+
     .cocktail .notes-list li:hover {
       color: black; /* Changed hover color for notes */
     }
@@ -133,11 +156,17 @@
 <body>
 <header>
   <h1>Kasa Moto Summer Cocktails 2024</h1>
+  <h2>Keep in mind: Actual drinks colour might vary slightly due to lighting and other factors!</h2>
 </header>
-
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>FASHIONABLY LATE  $ 24</h2>
+    <h2>BOLD & BEAUTIFUL - High Spirit</h2>
+    <h3>3 Cocktails: Fashionably Late, Midori Garden and Saffron Sunset </h3>
+  </div>
+</div>
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>FASHIONABLY LATE $ 24</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Suntory Toki</p>
@@ -149,14 +178,23 @@
       <p>Stirred</p>
       <p>Served in: Frozen rocks glass with King Cube</p>
       <p>Garnished with a Yamamomo Berry</p>
-      <p>*To be served with a soy ramekin for the Yamamomo pit*</p>
+      <p>Do NOT FORGET: To be served with a soy ramekin for the Yamamomo pit</p>
     </div>
     <div class="note">
-      <h3>**Flavour Note**</h3>
+      <h3>Flavour Note</h3>
       <p>Spirit Forward, Balanced</p>
     </div>
+    <div class="note">
+      <h3>Knowledge Base</h3>
+      <p>Toki means "time" in Japanese. Suntory Whisky Toki is a silky Japanese whisky with a subtle sweet-and-spicy
+        finish.</p>
+      <p>Sakura Bitters Tasting Notes: Cherry blossom, yellow cherry flesh, anise, salinic, rich, cardamom, cinnamon,
+        cedar aroma, subtly floral, very mild bitterness.
+
+      </p>
+    </div>
     <div>
-        <img src="img/FASHIONABLY_LATE.jpg" alt="Cocktail Image">
+      <img src="img/FASHIONABLY_LATE.jpg" alt="Cocktail Image">
     </div>
   </div>
 </div>
@@ -164,7 +202,7 @@
 <!-- Cocktail: MIDORI GARDEN -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>MIDORI GARDEN   $ 23</h2>
+    <h2>MIDORI GARDEN $ 23</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Tanqueray Gin</p>
@@ -181,17 +219,27 @@
       <p>Garnished with mandolin star fruit & flower petal</p>
     </div>
     <div class="note">
-      <h3>**Flavour Note**</h3>
+      <h3>Flavour Note</h3>
       <p>Tart, Spicy, Sharp flavor, Melon dominant</p>
     </div>
-        <div>
-        <img src="img/Midori%20Garden.jpg" alt="Cocktail Image">
+    <div class="note">
+      <h3>Knowledge Base</h3>
+      <p> El Gobernador Pisco: Chilean pisco from famed wine producer Miguel Torres. Made with Moscatel grapes, which
+        provide aromatic floral notes, as well as notes of citrus, this has a creamy texture and a long finish.</p>
+      <p>Tio Pepe Sherry: Tio Pepe is a Fino style, the most delicate and elegante of the sherry styles, aged for four
+        years under flor, a unique layer of yeast produced naturally in Jerez.</p>
+      <p> Thai Bird Syrup is made with Simple Syrup (Equal part water mixed with equal amount of sugar) and
+        Bird's eye chili with spicyness of about 50,000 to 100,000 Scoville units </p>
+
+    </div>
+    <div>
+      <img src="img/Midori%20Garden.jpg" alt="Cocktail Image">
     </div>
   </div>
 </div>
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>SAFFRON SUNSET   $ 24</h2>
+    <h2>SAFFRON SUNSET $ 24</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Patrón Silver</p>
@@ -212,7 +260,7 @@
       <h3>**Flavour Note**</h3>
       <p>Fresh, Light Tart, Round, Spicy</p>
     </div>
-        <div>
+    <div>
     </div>
   </div>
 </div>
@@ -220,7 +268,7 @@
 <!-- Cocktail: OUT OF OFFICE -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>OUT OF OFFICE  $21</h2>
+    <h2>OUT OF OFFICE $21</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Ketel One Vodka</p>
@@ -242,7 +290,7 @@
 </div>
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>MOTO MORI  $ 21</h2>
+    <h2>MOTO MORI $ 21</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Bulleit Bourbon</p>
@@ -268,7 +316,7 @@
 <!-- Cocktail: HEAD OF THE TABLE -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>HEAD OF THE TABLE  $22</h2>
+    <h2>HEAD OF THE TABLE $22</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Chili Infused Don Julio Blano</p>
@@ -290,7 +338,7 @@
 <!-- Cocktail: PERMANENT VACATION -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>PERMANENT VACATION   $ 94</h2>
+    <h2>PERMANENT VACATION $ 94</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Don Julio 1942</p>
@@ -311,13 +359,13 @@
       <p>Presented with an island inspired candle</p>
       <p>Presented with two tiki torches stationed at table until shots have been consumed</p>
     </div>
-    <div>  <img src="img/Flight%20Deck_Permanent%20Vacation.jpg" alt="Cocktail Image">
-</div>
+    <div><img src="img/Flight%20Deck_Permanent%20Vacation.jpg" alt="Cocktail Image">
+    </div>
   </div>
 </div>
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>SHISO FIRE   $ 76</h2>
+    <h2>SHISO FIRE $ 76</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>St. Remy VSOP</p>
@@ -335,19 +383,19 @@
       <h3>Note</h3>
       <p>Strong, Booze Forward</p>
     </div>
-        <div> <img src="img/SF2.jpg" alt="Cocktail Image">
-</div>
-        <div> <img src="img/SF1.jpg" alt="Cocktail Image">
-</div>
-    <div> <img src="img/Flight%20Deck_ShishoFire.jpg" alt="Cocktail Image">
-</div>
+    <div><img src="img/SF2.jpg" alt="Cocktail Image">
+    </div>
+    <div><img src="img/SF1.jpg" alt="Cocktail Image">
+    </div>
+    <div><img src="img/Flight%20Deck_ShishoFire.jpg" alt="Cocktail Image">
+    </div>
   </div>
 </div>
 
 <!-- Cocktail: SAKURA KISS -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>SAKURA KISS  $21/GL  $80/JUG</h2>
+    <h2>SAKURA KISS $21/GL $80/JUG</h2>
     <div class="ingredients">
       <h3>Per Glass</h3>
       <p>Grey Goose Vodka</p>
@@ -369,17 +417,17 @@
       <h3>Note</h3>
       <p>Very Sweet</p>
     </div>
-    <div> <img src="img/Sakura%20Kiss1.jpg" alt="Cocktail Image">
-</div>
-    <div> <img src="img/Sakura%20Kiss.jpg" alt="Cocktail Image">
-</div>
+    <div><img src="img/Sakura%20Kiss1.jpg" alt="Cocktail Image">
+    </div>
+    <div><img src="img/Sakura%20Kiss.jpg" alt="Cocktail Image">
+    </div>
   </div>
 </div>
 
 <!-- Cocktail: HOT TAKE -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>HOT TAKE  $21/GL  $110/JUG</h2>
+    <h2>HOT TAKE $21/GL $110/JUG</h2>
     <div class="ingredients">
       <h3>Per Glass</h3>
       <p>Don Julio Blanco</p>
@@ -404,7 +452,7 @@
 </div>
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>SAKE SANGRIA  $21/GL $80/JUG</h2>
+    <h2>SAKE SANGRIA $21/GL $80/JUG</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Sho Chiku Bai Sake</p>
@@ -430,7 +478,7 @@
 <!-- Cocktail: TIGER LILY -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>TIGER LILY  $14</h2>
+    <h2>TIGER LILY $14</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Lemon Juice</p>
@@ -448,17 +496,17 @@
       <h3>Note</h3>
       <p>Turmeric forward and tart</p>
     </div>
-        <div> <img src="img/TigerLily_1.jpg" alt="Cocktail Image">
-</div>
-        <div> <img src="img/TigerLily_2.jpg" alt="Cocktail Image">
-</div>
+    <div><img src="img/TigerLily_1.jpg" alt="Cocktail Image">
+    </div>
+    <div><img src="img/TigerLily_2.jpg" alt="Cocktail Image">
+    </div>
   </div>
 </div>
 
 <!-- Cocktail: BLUE VELVET SPRITZ -->
 <div class="cocktail">
   <div class="cocktail-info">
-    <h2>BLUE VELVET SPRITZ  $ 16</h2>
+    <h2>BLUE VELVET SPRITZ $ 16</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
       <p>Seedlip Grove</p>
@@ -477,8 +525,8 @@
       <h3>Note</h3>
       <p>Contains Nuts</p>
     </div>
-            <div> <img src="img/BlueVelvet.jpg" alt="Cocktail Image">
-</div>
+    <div><img src="img/BlueVelvet.jpg" alt="Cocktail Image">
+    </div>
 
   </div>
 </div>
