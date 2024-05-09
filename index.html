@@ -171,6 +171,39 @@
     .cocktail .notes-list li:hover {
       color: black; /* Changed hover color for notes */
     }
+
+ /* Styling for the navigation bar */
+.top-nav {
+  background-color: #333; /* Background color */
+  padding: 10px; /* Padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  text-align: center; /* Align center horizontally */
+}
+
+/* Styling for the navigation links */
+.top-nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.top-nav ul li {
+  display: inline; /* Display links horizontally */
+}
+
+.top-nav ul li a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Padding around links */
+}
+
+.top-nav ul li a:hover {
+  background-color: #555; /* Hover background color */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+
   </style>
 </head>
 <body>
@@ -178,12 +211,28 @@
   <h1>Kasa Moto Summer Cocktails 2024</h1>
   <h2>Keep in mind: Actual drinks colour might vary slightly due to lighting and other factors!</h2>
 </header>
-<div class="cocktail">
+
+<!--<nav class="top-nav">-->
+<!--  <ul>-->
+<!--    <li><a href="#bold-beautiful">Bold & Beautiful</a></li>-->
+<!--    <li><a href="#opposite-attracts">Opposite Attracts</a></li>-->
+<!--    <li><a href="#flight-decks">Flight Decks</a></li>-->
+<!--    <li><a href="#big-in-japan">Big In Japan</a></li>-->
+<!--    <li><a href="#non-alcoholic">Non-Alcoholic</a></li>-->
+<!--    <li><a href="#frozen-cocktails">Frozen Cocktails</a></li>-->
+<!--    <li><a href="#spritz-ceremony">Spritz Ceremony</a></li>-->
+<!--  </ul>-->
+<!--</nav>-->
+
+
+<div class="cocktail" id="bold-beautiful" style="background-color: darksalmon">
   <div class="cocktail-info">
     <h2>BOLD & BEAUTIFUL - High Spirit</h2>
     <h3>3 Cocktails: Fashionably Late, Midori Garden and Saffron Sunset </h3>
   </div>
 </div>
+
+
 <div class="cocktail">
   <div class="cocktail-info">
     <h2>FASHIONABLY LATE $ 24</h2>
@@ -290,7 +339,7 @@
 </div>
 
 <!-- Section Divider -->
-<div class="cocktail">
+<div class="cocktail" id="opposite-attracts" style="background-color: darksalmon">
   <div class="cocktail-info">
     <h2>Opposite Attracts - Sweet and Sour</h2>
     <h3>3 Cocktails: Out of Office, Moto Mori and Head of the Table </h3>
@@ -390,7 +439,7 @@
 </div>
 
 <!-- Section Divider -->
-<div class="cocktail">
+<div class="cocktail" style="background-color: darksalmon">
   <div class="cocktail-info">
     <h2>Flight Decks - 4 Shooters</h2>
     <h3>2 Cocktails: Permanent Vacation (Don Julio 1942, Yay!!), Shi-so Fire </h3>
@@ -455,7 +504,7 @@
 </div>
 
 <!-- Section Divider -->
-<div class="cocktail">
+<div class="cocktail" style="background-color: darksalmon">
   <div class="cocktail-info">
     <h2>Big In Japan - Large Format</h2>
     <h3>3 Cocktails: Sakura Kiss, Hot Take and Sake Sangria</h3>
@@ -548,7 +597,7 @@
 </div>
 
 <!-- Section Divider -->
-<div class="cocktail">
+<div class="cocktail" style="background-color: darksalmon">
   <div class="cocktail-info">
     <h2>Non-Alcoholic</h2>
     <h3>2 Cocktails: Tiger Lily and Blue Velvet Spritz and 1 Daily Juice</h3>
@@ -678,58 +727,59 @@
   </div>
 </div>
 
-<div class="cocktail">
+<div class="cocktail" style="background-color: darksalmon">
   <div class="cocktail-info">
     <h2>SPRITZ CEREMONY</h2>
     <h3>3 Types: GIN SPRITZ , APEROL SPRITZ , HUGO SPRITZ </h3>
-    <p>Cocktails are presented in a deconstructed format. Ingredients served on a tray include: a bottle of
+    <p style="color: darkblue">Cocktails are presented in a deconstructed format. Ingredients served on a tray include:
+      a bottle of
       liquor, carafe of liqueur, sparkling wine, glassware and garnish. Guests are instructed on how to
       build their own cocktail.</p>
   </div>
 </div>
 
-  <!-- SPRITZ CEREMONY -->
-  <div class="cocktail">
-    <div class="cocktail-info">
-      <h2>C $150</h2>
-      <div class="ingredients">
-        <h3>Ingredients</h3>
-        <p>Bombay gin</p>
-        <p>Prosecco</p>
-        <p>Chambord</p>
-        <p>Fever Tree Elderflower tonic</p>
-        <p>Seasonal fruit</p>
-      </div>
+<!-- SPRITZ CEREMONY -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>GIN SPRITZ $150</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p>Bombay gin</p>
+      <p>Prosecco</p>
+      <p>Chambord</p>
+      <p>Fever Tree Elderflower tonic</p>
+      <p>Seasonal fruit</p>
     </div>
   </div>
+</div>
 
-  <!-- APEROL SPRITZ -->
-  <div class="cocktail">
-    <div class="cocktail-info">
-      <h2>APEROL SPRITZ $150</h2>
-      <div class="ingredients">
-        <h3>Ingredients</h3>
-        <p>Aperol</p>
-        <p>Prosecco</p>
-        <p>Fever Tree Soda</p>
-        <p>Orange slices</p>
-      </div>
+<!-- APEROL SPRITZ -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>APEROL SPRITZ $150</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p>Aperol</p>
+      <p>Prosecco</p>
+      <p>Fever Tree Soda</p>
+      <p>Orange slices</p>
     </div>
   </div>
+</div>
 
-  <!-- HUGO SPRITZ -->
-  <div class="cocktail">
-    <div class="cocktail-info">
-      <h2>HUGO SPRITZ $150</h2>
-      <div class="ingredients">
-        <h3>Ingredients</h3>
-        <p>St-Germain</p>
-        <p>Prosecco</p>
-        <p>Fever Tree Soda</p>
-        <p>Lavender sprigs</p>
-      </div>
+<!-- HUGO SPRITZ -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>HUGO SPRITZ $150</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p>St-Germain</p>
+      <p>Prosecco</p>
+      <p>Fever Tree Soda</p>
+      <p>Lavender sprigs</p>
     </div>
   </div>
+</div>
 
 
 </body>
