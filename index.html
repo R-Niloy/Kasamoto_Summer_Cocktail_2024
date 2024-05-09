@@ -9,21 +9,39 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #c9dcdc;
+      background-color: #005286;
     }
 
     header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 20px 0;
-      margin-bottom: 20px;
-    }
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  animation: glow 5s infinite alternate; /* Adding animation */
+  transition: background-color 0.5s ease; /* Adding transition for smooth color change */
+}
 
+@keyframes glow {
+  0% {
+    background-color: #338fff; /* Red */
+  }
+  50% {
+    background-color: #0e2e4f; /* Green */
+  }
+  100% {
+    background-color: #181831; /* Blue */
+  }
+}
     h1 {
       font-size: 36px;
-      font-weight: bold;
-    }
+  font-weight: bold;
+  transition: transform 0.3s ease; /* Adding transition for smooth pop-out effect */
+}
+
+h1:hover {
+  transform: scale(1.1); /* Increasing the size on hover to create a pop-out effect */
+}
 
     .cocktail {
       display: flex;
@@ -290,15 +308,20 @@
       <p>Tiki Mug</p>
       <p>Garnished with a dehydrated blood orange wheel, edible flower, pineapple leaf</p>
     </div>
+        <div>
+      <img src="img/Out_of_Office_1.jpg" alt="Cocktail Image">
+    </div>
+        <div>
+      <img src="img/Out_of_Office_2.jpg" alt="Cocktail Image">
+    </div>
   </div>
-  <img src="img/out_of_office.jpg" alt="Cocktail Image">
 </div>
 <div class="cocktail">
   <div class="cocktail-info">
     <h2>MOTO MORI $ 21</h2>
     <div class="ingredients">
       <h3>Ingredients</h3>
-      <p>Bulleit Bourbon</p>
+      <p>Bullet Bourbon</p>
       <p>Blueberry Liqueur</p>
       <p>Lemon Juice</p>
       <p>Black Sesame Activated Charcoal Simple Syrup</p>
