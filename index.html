@@ -13,35 +13,37 @@
     }
 
     header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  margin-bottom: 20px;
-  animation: glow 5s infinite alternate; /* Adding animation */
-  transition: background-color 0.5s ease; /* Adding transition for smooth color change */
-}
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-bottom: 20px;
+      animation: glow 5s infinite alternate; /* Adding animation */
+      transition: background-color 0.5s ease; /* Adding transition for smooth color change */
+    }
 
-@keyframes glow {
-  0% {
-    background-color: #338fff; /* Red */
-  }
-  50% {
-    background-color: #0e2e4f; /* Green */
-  }
-  100% {
-    background-color: #181831; /* Blue */
-  }
-}
+    @keyframes glow {
+      0% {
+        background-color: #338fff; /* Red */
+      }
+      50% {
+        background-color: #0e2e4f; /* Green */
+      }
+      100% {
+        background-color: #181831; /* Blue */
+      }
+    }
+
     h1 {
       font-size: 36px;
-  font-weight: bold;
-  transition: transform 0.3s ease; /* Adding transition for smooth pop-out effect */
-}
+      font-weight: bold;
+      transition: transform 0.3s ease; /* Adding transition for smooth pop-out effect */
+    }
 
-h1:hover {
-  transform: scale(1.1); /* Increasing the size on hover to create a pop-out effect */
-}
+    h1:hover {
+      color: cornsilk;
+      transform: scale(1.1); /* Increasing the size on hover to create a pop-out effect */
+    }
 
     .cocktail {
       display: flex;
@@ -193,7 +195,7 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Stirred</p>
+      <p>Mixing Style: Stirred</p>
       <p>Served in: Frozen rocks glass with King Cube</p>
       <p>Garnished with a Yamamomo Berry</p>
       <p>Do NOT FORGET: To be served with a soy ramekin for the Yamamomo pit</p>
@@ -201,6 +203,7 @@ h1:hover {
     <div class="note">
       <h3>Flavour Note</h3>
       <p>Spirit Forward, Balanced</p>
+      <p>Alcohol Amount: 2oz</p>
     </div>
     <div class="note">
       <h3>Knowledge Base</h3>
@@ -232,13 +235,14 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Shaken</p>
+      <p>Mixing Style: Shaken</p>
       <p>Served in: 1920s Retro Fizz Coupe</p>
       <p>Garnished with mandolin star fruit & flower petal</p>
     </div>
     <div class="note">
       <h3>Flavour Note</h3>
       <p>Tart, Spicy, Sharp flavor, Melon dominant</p>
+      <p>Alcohol Amount: 2.5oz</p>
     </div>
     <div class="note">
       <h3>Knowledge Base</h3>
@@ -269,7 +273,7 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Shaken with Pomelo</p>
+      <p>Mixing Style: Shaken with Pomelo</p>
       <p>Served in: Frozen round rocks glass with saffron sphered king cube</p>
       <p>Garnished with a pomelo wing</p>
       <p>All liquid served in sidecar to be poured table side</p>
@@ -277,17 +281,23 @@ h1:hover {
     <div class="note">
       <h3>**Flavour Note**</h3>
       <p>Fresh, Light Tart, Round, Spicy</p>
+      <p>Alcohol Amount: 2.25oz</p>
+
     </div>
     <div>
     </div>
   </div>
 </div>
+
+<!-- Section Divider -->
 <div class="cocktail">
   <div class="cocktail-info">
     <h2>Opposite Attracts - Sweet and Sour</h2>
     <h3>3 Cocktails: Out of Office, Moto Mori and Head of the Table </h3>
   </div>
 </div>
+
+
 <!-- Cocktail: OUT OF OFFICE -->
 <div class="cocktail">
   <div class="cocktail-info">
@@ -303,15 +313,21 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Shaken</p>
+      <p>Mixing Style: Shaken</p>
       <p>Pearl Ice</p>
-      <p>Tiki Mug</p>
+      <p>Served in: Tiki Mug</p>
       <p>Garnished with a dehydrated blood orange wheel, edible flower, pineapple leaf</p>
     </div>
-        <div>
+    <div class="note">
+      <h3>**Flavour Note**</h3>
+      <p></p>
+      <p>Alcohol Amount: 2.5oz</p>
+
+    </div>
+    <div>
       <img src="img/Out_of_Office_1.jpg" alt="Cocktail Image">
     </div>
-        <div>
+    <div>
       <img src="img/Out_of_Office_2.jpg" alt="Cocktail Image">
     </div>
   </div>
@@ -329,18 +345,21 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Shaken</p>
-      <p>Nick & Nora</p>
-      <p>Garnished with black sesame seeds and blueberry dust</p>
+      <p>Mixing Style: Shaken</p>
+      <p>Served in: Nick & Nora</p>
+      <p>Garnished with black sesame seeds.</p>
     </div>
     <div class="note">
-      <h3>Note</h3>
+      <h3>**Flavour Note**</h3>
       <p>Creamy, Thick, “Chewy”, Sweet</p>
+      <p>Alcohol Amount: 2oz</p>
+      <p style="color: red">CONTAINS Dairy, Black Sesame and Berries!</p>
+
     </div>
-        <div>
+    <div>
       <img src="img/Moto_Mori_1.jpg" alt="Cocktail Image">
     </div>
-        <div>
+    <div>
       <img src="img/Moto_Mori_2.jpg" alt="Cocktail Image">
     </div>
   </div>
@@ -359,14 +378,25 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Shaken</p>
+      <p>Mixing Style: haken</p>
       <p>Pearl Ice</p>
-      <p>Coupe</p>
-      <p>Garnished with a coconut rim</p>
+      <p>Served In: Rocks</p>
+      <p>Garnished with a coconut togarashi rim</p>
+      <p>Alcohol Amount: 2.5oz</p>
+
     </div>
   </div>
   <img src="img/head_of_the_table.jpg" alt="Cocktail Image">
 </div>
+
+<!-- Section Divider -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>Flight Decks - 4 Shooters</h2>
+    <h3>2 Cocktails: Permanent Vacation (Don Julio 1942, Yay!!), Shi-so Fire </h3>
+    <h3 style="color: blue;">Please be extremely careful while carrying trays full of drinks!!</h3></div>
+</div>
+
 
 <!-- Cocktail: PERMANENT VACATION -->
 <div class="cocktail">
@@ -382,15 +412,14 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Shaken</p>
-      <p>4 Tiki Shot Glasses</p>
-      <p>Served on rectangle irregular wooden tray with a ramekin of cinnamon sugar dipped lime</p>
+      <p>Mixing Style: Shaken</p>
+      <p>Served In: 4 Tiki Shot Glasses</p>
     </div>
     <div class="note">
       <h3>Note</h3>
+      <p>Served On: Rectangle irregular wooden tray with a ramekin of cinnamon sugar dipped lime</p>
       <p>Tray decorated with tasteful confetti, edible flowers and candy</p>
       <p>Presented with an island inspired candle</p>
-      <p>Presented with two tiki torches stationed at table until shots have been consumed</p>
     </div>
     <div><img src="img/Flight%20Deck_Permanent%20Vacation.jpg" alt="Cocktail Image">
     </div>
@@ -425,6 +454,15 @@ h1:hover {
   </div>
 </div>
 
+<!-- Section Divider -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>Big In Japan - Large Format</h2>
+    <h3>3 Cocktails: Sakura Kiss, Hot Take and Sake Sangria</h3>
+    <h3 style="color: blue;"> Served in single serve format($21) or in Jug ($80 - for 4)</h3></div>
+</div>
+
+
 <!-- Cocktail: SAKURA KISS -->
 <div class="cocktail">
   <div class="cocktail-info">
@@ -450,9 +488,9 @@ h1:hover {
       <h3>Note</h3>
       <p>Very Sweet</p>
     </div>
-    <div><img src="img/Sakura%20Kiss1.jpg" alt="Cocktail Image">
+    <div><img src="img/Sakura_Kiss_1.jpg" alt="Cocktail Image">
     </div>
-    <div><img src="img/Sakura%20Kiss.jpg" alt="Cocktail Image">
+    <div><img src="img/Sakura_Kiss_2.jpg" alt="Cocktail Image">
     </div>
   </div>
 </div>
@@ -472,12 +510,13 @@ h1:hover {
     </div>
     <div class="instructions">
       <h3>Instructions</h3>
-      <p>Shaken</p>
-      <p>Tea Cup</p>
+      <p>Mixing Style: Shaken</p>
+      <p>Served In: Coupe</p>
       <p>Garnished with Shichimi togarashi pineapple jerky</p>
     </div>
     <div class="note">
       <h3>Note</h3>
+      <p>When in large format will be served in a quantity of 4 presented on a “cocktail tree”</p>
       <p>Jerky is piccante</p>
     </div>
   </div>
@@ -507,6 +546,15 @@ h1:hover {
   </div>
   <img src="img/sake_sangria.jpg" alt="Cocktail Image">
 </div>
+
+<!-- Section Divider -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>Non-Alcoholic</h2>
+    <h3>2 Cocktails: Tiger Lily and Blue Velvet Spritz and 1 Daily Juice</h3>
+  </div>
+</div>
+
 
 <!-- Cocktail: TIGER LILY -->
 <div class="cocktail">
@@ -556,12 +604,133 @@ h1:hover {
     </div>
     <div class="note">
       <h3>Note</h3>
-      <p>Contains Nuts</p>
+      <p style="color: red">CONTAINS Nuts!</p>
     </div>
     <div><img src="img/BlueVelvet.jpg" alt="Cocktail Image">
     </div>
 
   </div>
 </div>
+
+<!-- Cocktail: Juice -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>Daily Juice Blend $ 12</h2>
+    <div class="ingredients">
+      <h3>6oz of Cold Pressed Juice, Ask bartender for the juice selection of specific days!</h3>
+    </div>
+  </div>
+</div>
+
+<!-- Section Divider -->
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>Frozen Cocktails</h2>
+    <h3>2 Cocktails: Frozen Espresso Martini and Frozen Margarita</h3>
+    <p>We receive the pre-mixes from Valerie/Hotel X</p>
+  </div>
+</div>
+
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>FROZEN ESPRESSO MARTINI $23</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p>Ketel One</p>
+      <p>Kaluha</p>
+      <p>Espresso</p>
+      <p>Brown Sugar Cream</p>
+    </div>
+    <div class="instructions">
+      <h3>Instructions</h3>
+      <p>Poured</p>
+      <p>Coupe</p>
+      <p>Garnished with espresso beans</p>
+    </div>
+    <div class="note">
+      <h3>Note</h3>
+      <p>Contains Dairy</p>
+    </div>
+  </div>
+</div>
+
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>FROZEN MARGARITA $23</h2>
+    <div class="ingredients">
+      <h3>Ingredients</h3>
+      <p>Don Julio</p>
+      <p>Cointreau</p>
+      <p>Agave</p>
+      <p>Lime</p>
+      <p>Flavored Cordial</p>
+    </div>
+    <div class="instructions">
+      <h3>Instructions</h3>
+      <p>Poured</p>
+      <p>Rocks Glass</p>
+      <p>Garnished with a lime wheel</p>
+    </div>
+    <div class="note">
+      <h3>Note</h3>
+      <p>Contains Dairy</p>
+    </div>
+  </div>
+</div>
+
+<div class="cocktail">
+  <div class="cocktail-info">
+    <h2>SPRITZ CEREMONY</h2>
+    <h3>3 Types: GIN SPRITZ , APEROL SPRITZ , HUGO SPRITZ </h3>
+    <p>Cocktails are presented in a deconstructed format. Ingredients served on a tray include: a bottle of
+      liquor, carafe of liqueur, sparkling wine, glassware and garnish. Guests are instructed on how to
+      build their own cocktail.</p>
+  </div>
+</div>
+
+  <!-- SPRITZ CEREMONY -->
+  <div class="cocktail">
+    <div class="cocktail-info">
+      <h2>C $150</h2>
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <p>Bombay gin</p>
+        <p>Prosecco</p>
+        <p>Chambord</p>
+        <p>Fever Tree Elderflower tonic</p>
+        <p>Seasonal fruit</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- APEROL SPRITZ -->
+  <div class="cocktail">
+    <div class="cocktail-info">
+      <h2>APEROL SPRITZ $150</h2>
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <p>Aperol</p>
+        <p>Prosecco</p>
+        <p>Fever Tree Soda</p>
+        <p>Orange slices</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- HUGO SPRITZ -->
+  <div class="cocktail">
+    <div class="cocktail-info">
+      <h2>HUGO SPRITZ $150</h2>
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <p>St-Germain</p>
+        <p>Prosecco</p>
+        <p>Fever Tree Soda</p>
+        <p>Lavender sprigs</p>
+      </div>
+    </div>
+  </div>
+
+
 </body>
 </html>
